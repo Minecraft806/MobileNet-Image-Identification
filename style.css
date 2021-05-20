@@ -1,0 +1,82 @@
+body {
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+    background-color:lime;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_div{
+    background: lime;
+    color: red;
+}
+
+.header_div img {
+    border: 3px black solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.main_div {
+    background: lime;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.main_div label {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px black;
+}
+
+#camera,#result {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.main_div button {
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px black;
+    border: 1px solid;
+}
+
+.black_class_name {
+   background-color: black;
+   color: white;
+}
+
+.footer_div {
+    margin-bottom: 50px;
+}
+
+.footer_div h4 {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.footer_div img {
+    width: 70px;
+    height: 70px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: red;
+    bottom: 0px;
+    width: 95%;
+    text-align: right;
+    line-height: 3;
+}
